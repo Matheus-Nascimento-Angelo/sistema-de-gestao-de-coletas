@@ -1,0 +1,113 @@
+
+@font-face {
+    font-family: "Asap";
+    src: url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap");
+    font-weight: normal;
+}
+
+* {
+    font-family: 'Asap' sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF5A24;
+}
+
+input {
+    background-color: white;
+    width: 380px;
+    height: 53px;
+    border-radius: 60px;
+    font-size: 17px;
+    text-indent: 40px;
+    color: #CACACA;
+    border: none;
+}
+
+input::placeholder {
+    color: #CACACA;
+}
+
+.side-button {
+    cursor: pointer;
+    padding:0;
+    margin: 0;
+    width: 53px;
+    height: 53px;
+    border-radius: 60px;
+    border: none;
+    margin-left: 5px;
+}
+
+.main-button {
+    font-family: 'Asap' sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+    width: 380px;
+    height: 51px;
+    border-radius: 45px;
+    background-color: white;
+    color: #FF5A24;
+    border: none;
+    cursor: pointer;
+}
+
+.form-itens {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap:5px;
+    width: 380px;
+    height: auto;
+}
+
+.side-button-container {
+    margin-top: 100px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 0;
+    gap: 5px;
+}
+
+.side-button:nth-of-type(2){
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.side-button:nth-of-type(1){
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.center-button-container {
+    width: 380px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.secondary-button:nth-of-type(2) {
+    grid-column: 3;
+}
+
+.secondary-button {
+    width: 134px;
+    height: 51px;
+    background-color: #FFC700;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    border-radius: 45px;
+    border: none;
+    margin-top: 52px;
+    cursor: pointer;
+}
