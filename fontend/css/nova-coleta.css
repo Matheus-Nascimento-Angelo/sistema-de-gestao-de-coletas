@@ -44,6 +44,12 @@ input::placeholder {
     margin-left: 5px;
 }
 
+.side-button:hover {
+    border: 3px;
+    border-color: #CACACA;
+    border-style: solid;
+}
+
 .main-button {
     font-family: 'Asap' sans-serif;
     font-weight: bold;
@@ -55,6 +61,11 @@ input::placeholder {
     color: #FF5A24;
     border: none;
     cursor: pointer;
+}
+
+.main-button:hover {
+    background-color: #FFC700;
+    color: white;
 }
 
 .form-itens {
@@ -110,4 +121,8 @@ input::placeholder {
     border: none;
     margin-top: 52px;
     cursor: pointer;
+}
+.secondary-button:hover {
+    background-color: white;
+    color: #FF5A24;
 }
